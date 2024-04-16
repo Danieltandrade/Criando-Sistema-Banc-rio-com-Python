@@ -23,7 +23,7 @@ saldo = 0            # Variável inicializada com zero, representa o saldo da co
 limite = 500         # Variável que define o limite máximo para saques (nesse caso, 500).
 extrato = ""         # Variável tipo string vazia que será usada para registrar as transações.
 numero_saques = 0    # Variável inicializada com zero, conta o número de saques realizados.
-LIMITE_SAQUES = 3    # Variável que define o limite máximo de saques permitidos (neste caso, 3).
+LIMITE_SAQUES = 3    # Constante que define o limite máximo de saques permitidos (neste caso, 3).
 
 while True: # Loop principal. Condição permanece verdadeiro até tecla "0" ser pressionada.
 
@@ -78,7 +78,7 @@ while True: # Loop principal. Condição permanece verdadeiro até tecla "0" ser
         print("Obrigado por utilizar nossos serviços!0")
         print("Tenha um bom dia!")
         break
-    
+
     # Se o usuário digitar uma opção inválida, uma mensagem de erro é exibida.
     else:
         print("Operação inválida, por favor selecione novamente a operação desejada.")
